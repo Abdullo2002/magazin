@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<ul class="characters"> // Самая главний в жизнь!
+ <li>
+   <input type="checkbox" data-index="0" id="char0"> //первый
+   <label for="char0">мама</label>
+ </li>
+ 
+ <li>
+   <input type="checkbox" data-index="1" id="char1"> //второй
+   <label for="char1">папа</label>
+ </li>
+ 
+ <li>
+   <input type="checkbox" data-index="2" id="char2"> //третий
+   <label for="char2">денги</label>
+ </li>
+</ul>
+<script>
+  const characterList = document.querySelector('.characters');
+  characterList.addEventListener('click', toggleDone);
+</script>
+</body>
+</html>
